@@ -156,11 +156,11 @@ else:
 
 # Shuffle dataset each time to get training and testing dataset
 train_dataset, num_train = get_tfrec_dataset(train_files, shuffle = -1, batch_size = background.batch_size,
-                                                  cache = True, to_filter = 'filter_2', calculate_sample_num = True,
-                                            to_repeat = True)
+                                             cache = True, to_filter = 'filter_2', calculate_sample_num = True,
+                                             to_repeat = True)
 
 val_dataset, num_val = get_tfrec_dataset(val_files, shuffle = False, batch_size = background.val_batch_size,
-                                                  cache = True, to_filter = 'filter_1', calculate_sample_num = True)
+                                         cache = True, to_filter = 'filter_1', calculate_sample_num = True)
 print(num_train) # 306251
 print(num_val) # 5512
 

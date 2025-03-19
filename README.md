@@ -33,10 +33,6 @@ Room for improvement:
 - The tensorflow version is not the newest version because I am on Windows, use Windows Subsystem for Linux would give a full linux environment and lower loss.
 - Because of the limitation of TPU memory, the batch size used here is 128. Experimenting with smaller size would give a preciser result, but a longer runtime as a trade-off
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
-
 
 ## Acknowledgements
 Give credit here.
